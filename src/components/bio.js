@@ -38,12 +38,12 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Written by <strong>{author}</strong>, a graduate javascript developer living and working in London. 
+              Ths site is very much a work in progress, so please bear with me as I get my developer legs.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
+              {/* <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
-              </a>
+              </a> */}
             </p>
           </div>
         )
