@@ -8,8 +8,9 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-
+import linkedIn from "../../content/assets/linkedin-logo.svg"
 import { rhythm } from "../utils/typography"
+import profilePic from "../../content/assets/profile-pic.jpg"
 
 function Bio() {
   return (
@@ -18,18 +19,48 @@ function Bio() {
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
-          <div
-            style={{
-              display: `flex`,
-              marginBottom: rhythm(2.5),
-            }}
-          >
-            <p>
-              Written by <strong>{author}</strong>, a graduate javascript
-              developer living and working in London. Ths site is very much a
-              work in progress, so please bear with me as I get my developer
-              legs.
-            </p>
+          <div>
+            <div
+              style={{
+                display: `flex`,
+                marginBottom: rhythm(2.5),
+              }}
+            >
+              <p>
+                Written by <strong>{author}</strong>, a London based Web
+                Developer learning her way in the javascript world. Currently
+                working for Concentra Analytics. Previously worked for Granta
+                Design. <br /> <br />
+                Looking to develop my javascript skills. Currently learning
+                React.
+              </p>
+            </div>
+            <img
+              src={profilePic}
+              style={{
+                maxWidth: "360px",
+                marginLeft: "auto",
+                marginRight: "auto",
+                display: "block",
+              }}
+            />
+            <a
+              href="https://www.linkedin.com/in/rosita-bannert/"
+              style={{
+                boxShadow: "none",
+              }}
+            >
+              <img
+                src={linkedIn}
+                style={{
+                  maxWidth: "16px",
+                  margin: "0px",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  display: "block",
+                }}
+              />
+            </a>
           </div>
         )
       }}
