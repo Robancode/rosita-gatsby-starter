@@ -1,9 +1,7 @@
 ---
 title: First Post!
 date: "2015-05-01T22:12:03.284Z"
-description: "My First Post"
+description: "First post"
 ---
 
 This is my first post on my new website!
-
-It's still very much a work in progress so please bear with me :D
