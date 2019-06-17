@@ -24,19 +24,6 @@ function Bio() {
               marginBottom: rhythm(2.5),
             }}
           >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            />
             <p>
               Written by <strong>{author}</strong>, a graduate javascript
               developer living and working in London. Ths site is very much a
@@ -54,8 +41,8 @@ const bioQuery = graphql`
   query BioQuery {
     avatar: file(absolutePath: { regex: "/profile-pic-2.jpg/" }) {
       childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
+        sizes(maxWidth: 180, quality: 75) {
+          ...GatsbyImageSharpSizes_noBase64
         }
       }
     }
