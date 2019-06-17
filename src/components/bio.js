@@ -23,27 +23,42 @@ function Bio() {
             <div
               style={{
                 display: `flex`,
-                marginBottom: rhythm(2.5),
+                marginBottom: rhythm(1.0),
               }}
             >
               <p>
-                Written by <strong>{author}</strong>, a London based Web
-                Developer learning her way in the javascript world. Currently
+                Written by <strong>{author}</strong>, a London based self-taught
+                Web Developer finding her way in the javascript world. Currently
                 working for Concentra Analytics. Previously worked for Granta
                 Design. <br /> <br />
-                Looking to develop my javascript skills. Currently learning
-                React.
+                Constantly developing my javascript and React skills.
               </p>
             </div>
-            <img
-              src={profilePic}
+            <div
               style={{
-                maxWidth: "360px",
-                marginLeft: "auto",
-                marginRight: "auto",
-                display: "block",
+                margin: rhythm(2.5),
               }}
-            />
+            >
+              <img
+                src={profilePic}
+                style={{
+                  maxWidth: "360px",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  display: "block",
+                }}
+                alt="Rosita smiles"
+              />{" "}
+              <div
+                style={{
+                  padding: "none",
+                  margin: "none",
+                  textAlign: "center",
+                }}
+              >
+                Rosita saying Hi
+              </div>
+            </div>
             <a
               href="https://www.linkedin.com/in/rosita-bannert/"
               style={{
