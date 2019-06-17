@@ -27,16 +27,37 @@ function Bio() {
               }}
             >
               <p>
-                Written by <strong>{author}</strong>, a London based self-taught
-                Web Developer finding her way in the javascript world. Currently
-                working for Concentra Analytics. Previously worked for Granta
-                Design. <br /> <br />
-                Constantly developing my javascript and React skills.
+                Written by <strong>{author}</strong>, a London based,
+                self-taught Web Developer finding her way in the javascript
+                world. Currently working for{" "}
+                <a
+                  style={{ boxShadow: "none" }}
+                  href="https://www.concentra.co.uk/"
+                >
+                  Concentra Analytics
+                </a>
+                . Previously worked for{" "}
+                <a
+                  href="https://grantadesign.com/"
+                  style={{ boxShadow: "none" }}
+                >
+                  Granta Design
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://www.soma-analytics.com/"
+                  style={{ boxShadow: "none" }}
+                >
+                  SOMA Analytics
+                </a>
+                . <br /> <br />
+                Constantly developing my javascript and React skills and open to
+                new opportunities.
               </p>
             </div>
             <div
               style={{
-                margin: rhythm(2.5),
+                margin: rhythm(1.5),
               }}
             >
               <img
@@ -46,6 +67,7 @@ function Bio() {
                   marginLeft: "auto",
                   marginRight: "auto",
                   display: "block",
+                  marginBottom: "0px",
                 }}
                 alt="Rosita smiles"
               />{" "}
@@ -56,7 +78,7 @@ function Bio() {
                   textAlign: "center",
                 }}
               >
-                Rosita saying Hi
+                Rosita on a rock
               </div>
             </div>
             <a
