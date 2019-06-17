@@ -31,7 +31,7 @@ function Bio() {
                 self-taught Web Developer finding her way in the javascript
                 world. Currently working for{" "}
                 <a
-                  style={{ boxShadow: "none" }}
+                  style={{ textDecoration: "none", color: "black" }}
                   href="https://www.concentra.co.uk/"
                 >
                   Concentra Analytics
@@ -39,14 +39,14 @@ function Bio() {
                 . Previously worked for{" "}
                 <a
                   href="https://grantadesign.com/"
-                  style={{ boxShadow: "none" }}
+                  style={{ textDecoration: "none", color: "black" }}
                 >
                   Granta Design
                 </a>{" "}
                 and{" "}
                 <a
                   href="https://www.soma-analytics.com/"
-                  style={{ boxShadow: "none" }}
+                  style={{ textDecoration: "none", color: "black" }}
                 >
                   SOMA Analytics
                 </a>
@@ -81,23 +81,22 @@ function Bio() {
                 Rosita on a rock
               </div>
             </div>
-            <a
-              href="https://www.linkedin.com/in/rosita-bannert/"
-              style={{
-                boxShadow: "none",
-              }}
-            >
-              <img
-                src={linkedIn}
+            <footer style={{ textAlign: "center" }}>
+              <a
+                href="https://www.linkedin.com/in/rosita-bannert/"
                 style={{
-                  maxWidth: "16px",
-                  margin: "0px",
-                  marginLeft: "auto",
-                  marginRight: "auto",
-                  display: "block",
+                  boxShadow: "none",
                 }}
-              />
-            </a>
+              >
+                <img
+                  src={linkedIn}
+                  style={{
+                    maxWidth: "16px",
+                    margin: "0px",
+                  }}
+                />
+              </a>
+            </footer>
           </div>
         )
       }}
