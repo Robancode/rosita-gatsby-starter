@@ -31,7 +31,7 @@ function Bio() {
                 self-taught Web Developer finding her way in the javascript
                 world. Currently working for{" "}
                 <a
-                  style={{ textDecoration: "none", color: "black" }}
+                  style={{ textDecoration: "none", color: "#07e" }}
                   href="https://www.concentra.co.uk/"
                 >
                   Concentra Analytics
@@ -39,19 +39,19 @@ function Bio() {
                 . Previously worked for{" "}
                 <a
                   href="https://grantadesign.com/"
-                  style={{ textDecoration: "none", color: "black" }}
+                  style={{ textDecoration: "none", color: "#07e" }}
                 >
                   Granta Design
                 </a>{" "}
                 and{" "}
                 <a
                   href="https://www.soma-analytics.com/"
-                  style={{ textDecoration: "none", color: "black" }}
+                  style={{ textDecoration: "none", color: "#07e" }}
                 >
                   SOMA Analytics
                 </a>
                 . <br /> <br />
-                Constantly developing my javascript and React skills and open to
+                Constantly developing javascript and React skills and open to
                 new opportunities.
               </p>
             </div>
