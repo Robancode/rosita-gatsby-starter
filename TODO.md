@@ -1,0 +1,2 @@
+- add github button
+- first person
