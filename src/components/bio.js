@@ -11,6 +11,7 @@ import Image from "gatsby-image"
 import linkedIn from "../../content/assets/linkedin-logo.svg"
 import { rhythm } from "../utils/typography"
 import profilePic from "../../content/assets/profile-pic.jpg"
+import github from "../../content/assets/GitHub-Mark-32px.png"
 
 function Bio() {
   return (
@@ -90,6 +91,20 @@ function Bio() {
               >
                 <img
                   src={linkedIn}
+                  style={{
+                    maxWidth: "16px",
+                    margin: "0px",
+                    marginRight: "8px",
+                  }}
+                />
+              </a>
+
+              <a
+                href="https://www.github.com/Robancode"
+                style={{ boxShadow: "none" }}
+              >
+                <img
+                  src={github}
                   style={{
                     maxWidth: "16px",
                     margin: "0px",
