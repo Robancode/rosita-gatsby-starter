@@ -27,9 +27,9 @@ function Bio() {
               }}
             >
               <p>
-                Written by <strong>{author}</strong>, a London based,
-                self-taught Web Developer finding her way in the javascript
-                world. Currently working for{" "}
+                Hi, I'm <strong>{author}</strong>, a London based, self-taught
+                Web Developer finding my way in the javascript world. Currently
+                working for{" "}
                 <a
                   style={{ textDecoration: "none", color: "#07e" }}
                   href="https://www.concentra.co.uk/"
@@ -78,7 +78,7 @@ function Bio() {
                   textAlign: "center",
                 }}
               >
-                Rosita on a rock
+                This is me!
               </div>
             </div>
             <footer style={{ textAlign: "center" }}>
