@@ -12,6 +12,7 @@ import linkedIn from "../../content/assets/linkedin-logo.svg"
 import { rhythm } from "../utils/typography"
 import profilePic from "../../content/assets/profile-pic.jpg"
 import github from "../../content/assets/GitHub-Mark-32px.png"
+import email from "../../content/assets/mail-black-envelope-symbol.svg"
 
 function Bio() {
   return (
@@ -108,8 +109,15 @@ function Bio() {
                   style={{
                     maxWidth: "16px",
                     margin: "0px",
+                    marginRight: "8px",
                   }}
                 />
+              </a>
+              <a
+                href="mailto:rositabannert@hotmail.co.uk"
+                style={{ boxShadow: "none" }}
+              >
+                <img src={email} style={{ maxWidth: "16px", margin: "0px" }} />
               </a>
             </footer>
           </div>
