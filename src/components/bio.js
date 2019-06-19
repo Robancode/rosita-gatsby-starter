@@ -53,8 +53,7 @@ function Bio() {
                   SOMA Analytics
                 </a>
                 . <br /> <br />
-                Constantly developing javascript and React skills and open to
-                new opportunities.
+                Currently up-skilling on React and open to new opportunities.
               </p>
             </div>
             <div
@@ -95,7 +94,7 @@ function Bio() {
                   style={{
                     maxWidth: "16px",
                     margin: "0px",
-                    marginRight: "8px",
+                    marginRight: "16px",
                   }}
                 />
               </a>
@@ -109,7 +108,7 @@ function Bio() {
                   style={{
                     maxWidth: "16px",
                     margin: "0px",
-                    marginRight: "8px",
+                    marginRight: "16px",
                   }}
                 />
               </a>
