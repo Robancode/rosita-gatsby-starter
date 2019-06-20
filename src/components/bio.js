@@ -30,7 +30,7 @@ function Bio() {
             >
               <p>
                 Hi, I'm <strong>{author}</strong>, a London based, self-taught
-                Web Developer finding my way in the javascript world. Currently
+                web developer finding my way in the javascript world. Currently
                 working for{" "}
                 <a
                   style={{ textDecoration: "none", color: "#07e" }}
@@ -53,7 +53,7 @@ function Bio() {
                   SOMA Analytics
                 </a>
                 . <br /> <br />
-                Currently up-skilling on React and open to new opportunities.
+                Currently up-skilling on react and open to new opportunities.
               </p>
             </div>
             <div
