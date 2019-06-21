@@ -76,7 +76,7 @@ function Bio() {
                   display: "block",
                   marginBottom: "0px",
                 }}
-                alt="Rosita smiles"
+                alt="Rosita"
               />{" "}
               <div
                 style={{
