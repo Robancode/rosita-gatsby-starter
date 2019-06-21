@@ -63,7 +63,8 @@ function Bio() {
             </div>
             <div
               style={{
-                margin: rhythm(1.5),
+                margin: `${rhythm(1.5)} 0`,
+                width: "100%",
               }}
             >
               <img
