@@ -54,6 +54,11 @@ function Bio() {
                 </a>
                 . <br /> <br />
                 Currently up-skilling on react and open to new opportunities.
+                Here's a link to my
+                <a href="https://docs.google.com/document/d/1jCpEJ7_nN_f2aKDazYTKZwVV-u6hKaLd_y9bJGHkhgY/edit?usp=sharing">
+                  {" "}
+                  CV.
+                </a>
               </p>
             </div>
             <div
