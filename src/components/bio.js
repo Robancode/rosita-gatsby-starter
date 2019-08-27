@@ -37,8 +37,8 @@ function Bio() {
                   href="https://www.concentra.co.uk/"
                 >
                   Concentra Analytics
-                </a>
-                . Previously worked for{" "}
+                </a>{" "}
+                as a UX designer. Previously worked for{" "}
                 <a
                   href="https://grantadesign.com/"
                   style={{ textDecoration: "none", color: "#07e" }}
