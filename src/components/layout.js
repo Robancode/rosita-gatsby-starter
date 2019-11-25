@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import "../index.less"
 
 import { rhythm, scale } from "../utils/typography"
 

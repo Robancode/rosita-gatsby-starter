@@ -10,9 +10,10 @@ import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import linkedIn from "../../content/assets/linkedin-logo.svg"
 import { rhythm } from "../utils/typography"
-import profilePic from "../../content/assets/profile-pic.jpg"
+import profilePic from "../../content/assets/crop.jpg"
 import github from "../../content/assets/GitHub-Mark-32px.png"
 import email from "../../content/assets/mail-black-envelope-symbol.svg"
+import "../index.less"
 
 function Bio() {
   return (
