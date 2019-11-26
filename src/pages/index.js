@@ -1,10 +1,11 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import CssPlayR from "../components/CssPlayR/CssPlayR"
+import "../components/CssPlayR/CssPlayR.css"
 
 class BlogIndex extends React.Component {
   render() {
@@ -12,13 +13,16 @@ class BlogIndex extends React.Component {
     const siteTitle = data.site.siteMetadata.title
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title="Hello from Rosita"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-        />
-        <Bio />
-      </Layout>
+      <>
+        <Layout location={this.props.location} title={siteTitle}>
+          <SEO
+            title="Hello from Rosita"
+            keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          />
+          <Bio />
+        </Layout>
+        <CssPlayR />
+      </>
     )
   }
 }
