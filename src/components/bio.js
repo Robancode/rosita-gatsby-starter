@@ -67,28 +67,7 @@ function Bio() {
                 margin: `${rhythm(1.5)} 0`,
                 width: "100%",
               }}
-            >
-              <img
-                src={profilePic}
-                style={{
-                  maxWidth: "360px",
-                  marginLeft: "auto",
-                  marginRight: "auto",
-                  display: "block",
-                  marginBottom: "0px",
-                }}
-                alt="Rosita"
-              />{" "}
-              <div
-                style={{
-                  padding: "none",
-                  margin: "none",
-                  textAlign: "center",
-                }}
-              >
-                This is me!
-              </div>
-            </div>
+            ></div>
             <footer style={{ textAlign: "center" }}>
               <a
                 href="https://www.linkedin.com/in/rosita-bannert/"
