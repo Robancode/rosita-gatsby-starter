@@ -35,11 +35,18 @@ function Bio() {
                 working for{" "}
                 <a
                   style={{ textDecoration: "none", color: "#07e" }}
+                  href="https://www.mixam.co.uk/"
+                >
+                  Mixam
+                </a>{" "}
+                as a front-end dev. Previously worked for{" "}
+                <a
+                  style={{ textDecoration: "none", color: "#07e" }}
                   href="https://www.concentra.co.uk/"
                 >
                   Concentra Analytics
                 </a>{" "}
-                as a UX designer. Previously worked for{" "}
+                as a UX designer/ dev,{" "}
                 <a
                   href="https://grantadesign.com/"
                   style={{ textDecoration: "none", color: "#07e" }}
