@@ -7,10 +7,8 @@
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 import linkedIn from "../../content/assets/linkedin-logo.svg"
 import { rhythm } from "../utils/typography"
-import profilePic from "../../content/assets/crop.jpg"
 import github from "../../content/assets/GitHub-Mark-32px.png"
 import email from "../../content/assets/mail-black-envelope-symbol.svg"
 import "../index.less"
@@ -20,7 +18,7 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author } = data.site.siteMetadata
         return (
           <div>
             <div
@@ -83,6 +81,7 @@ function Bio() {
                 }}
               >
                 <img
+                  alt="linkedin"
                   src={linkedIn}
                   style={{
                     maxWidth: "16px",
@@ -97,6 +96,7 @@ function Bio() {
                 style={{ boxShadow: "none" }}
               >
                 <img
+                  alt="github"
                   src={github}
                   style={{
                     maxWidth: "16px",
@@ -109,7 +109,11 @@ function Bio() {
                 href="mailto:rositabannert@hotmail.co.uk"
                 style={{ boxShadow: "none" }}
               >
-                <img src={email} style={{ maxWidth: "16px", margin: "0px" }} />
+                <img
+                  alt="emaillink"
+                  src={email}
+                  style={{ maxWidth: "16px", margin: "0px" }}
+                />
               </a>
             </footer>
           </div>
